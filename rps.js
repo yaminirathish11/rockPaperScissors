@@ -5,7 +5,7 @@ function Play() {
   //console.log(question);
   if (question === null || question === undefined) {
     console.log("You have to enter something");
-    return; // Stop further execution of the function
+    return; // if pressed cancel in prompt
   }
   if (question.length) {
     //console.log(question);
