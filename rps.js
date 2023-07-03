@@ -23,11 +23,7 @@ function Play() {
         (player === "scissors" && opponent === "rock")
       ) {
         alert("Opponent won");
-      } else if (
-        (player === "rock" && opponent === "scissors") ||
-        (player === "paper" && opponent === "rock") ||
-        (player === "scissors" && opponent === "paper")
-      ) {
+      } else {
         alert("You won");
       }
     } else {
